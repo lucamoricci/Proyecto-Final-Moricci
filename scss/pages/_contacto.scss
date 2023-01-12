@@ -1,0 +1,14 @@
+.contactoform{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.767), rgba(115, 0, 223, 0.76));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

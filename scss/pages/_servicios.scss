@@ -1,0 +1,14 @@
+.servicios{
+    background-image: linear-gradient(to bottom, rgb(115, 0, 223), rgb(40, 40, 212));
+    div{
+        @include flex;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, rgb(100, 100, 100), rgb(255, 255, 255));
+
+        &div{
+            background-image: linear-gradient(to bottom, rgb(100, 100, 100), rgb(255, 255, 255));
+        }
+    }
+
+}

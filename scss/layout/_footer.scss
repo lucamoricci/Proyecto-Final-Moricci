@@ -1,0 +1,42 @@
+footer{
+    grid-area: footer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(115, 0, 223);
+    padding-bottom: 10px;
+
+    img{
+        margin-left: 15px;
+        width: map-get($logofooter,width);
+        height: map-get($logofooter,height);
+    }
+
+    ul{
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                color: white;
+                text-shadow:black;
+                background-color: black;
+                border: 1px solid white;
+                border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+}
